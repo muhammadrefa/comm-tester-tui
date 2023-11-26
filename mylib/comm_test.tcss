@@ -1,0 +1,65 @@
+Screen {
+    layout: grid;
+    grid-size: 4;
+    grid-gutter: 1;
+}
+
+.sidebar {
+    height: 100%;
+    row-span: 3;
+    column-span: 1;
+    border: solid white;
+    /* background: blue; */
+}
+
+.datalog {
+    height: 100%;
+    row-span: 3;
+    column-span: 3;
+    border: solid white;
+    /* background: red; */
+}
+
+.information-box {
+    height: 100%;
+    row-span: 1;
+    column-span: 1;
+    border: solid white;
+    /* background: magenta; */
+}
+
+.send-data-bar {
+    height: 100%;
+    row-span: 1;
+    column-span: 3;
+    border: solid white;
+    /* background: green; */
+}
+
+#log {
+    height: 90%;
+}
+
+#data_to_send {
+    width: 65%;
+}
+
+#btn_stop_bind {
+    display: none;
+}
+
+.listening #btn_start_bind {
+    display: none;
+}
+
+.listening #btn_stop_bind {
+    display: block;
+}
+
+#btn_stop {
+    display: none;
+}
+
+#send_interval {
+    width: 9;
+}
